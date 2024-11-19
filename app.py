@@ -1,6 +1,6 @@
 def application(environ, start_response):
     status = '200 OK'
-    output = b'Hello México !\n'
+    output = b'Ceci !!\n'
 
     response_headers = [
         ('Content-type', 'text/plain'),
