@@ -1,2 +1,0 @@
-#!/bin/bash
-sudo rm -rf /var/www/html/myApp/proyecto_Control_de_Cambios/controlador

@@ -4,10 +4,6 @@ files:
   - source: /
     destination: /var/www/html/myApp/proyecto_Control_de_Cambios/controladorNew
 hooks:
-  BeforeInstall:
-    - location: /Before_Install
-      timeout: 300
-      runas: root
   ApplicationStop:
     - location: /stop_server
       timeout: 300

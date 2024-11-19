@@ -1,2 +1,4 @@
 #!/bin/bash
+mkdir /var/www/html/myApp/proyecto_Control_de_Cambios/controlador
+mv /var/www/html/myApp/proyecto_Control_de_Cambios/controladorNew /var/www/html/myApp/proyecto_Control_de_Cambios/controlador
 sudo systemctl start apache2
