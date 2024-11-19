@@ -1,5 +1,5 @@
 #!/bin/bash
-mkdir /var/www/html/myApp/proyecto_Control_de_Cambios/controlador
+rm -f /var/www/html/myApp/proyecto_Control_de_Cambios/controlador/app.py
 cd /var/www/html/myApp/proyecto_Control_de_Cambios/controladorNew/
-mv * /var/www/html/myApp/proyecto_Control_de_Cambios/controlador/
-sudo systemctl start apache2
+mv app.py /var/www/html/myApp/proyecto_Control_de_Cambios/controlador/
+sudo systemctl restart apache2
